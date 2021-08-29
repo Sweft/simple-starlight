@@ -30,6 +30,5 @@ public class SweftServiceTest {
 			str2="saturday";
 			editDistance = sweftService.getEditDistance(str1, str2);
 			assert(editDistance==3);
-			
 	}
 }
