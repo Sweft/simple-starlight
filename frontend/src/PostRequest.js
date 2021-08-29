@@ -30,8 +30,8 @@ class PostRequest extends React.Component {
             <div className="card text-center m-3">
                 <h5 className="card-header">Calculate Edit Distance Between Two Strings</h5>
 		<p></p>
-		<p>Enter string 1:  <input ref={this.string1}/></p>
-		<p>Enter string 2:  <input ref={this.string2}/></p>
+		<p>Enter string 1:  <input id="input1" ref={this.string1}/></p>
+		<p>Enter string 2:  <input id="input2" ref={this.string2}/></p>
 		<p><button onClick={this.calcEditDistance} id="calculateEditDistanceBtn">Calculate Edit Distance</button></p>
                 <div className="card-body">
                     Edit Distance between the two strings is: {editDistance}
