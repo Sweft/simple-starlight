@@ -29,7 +29,7 @@ Constraints
 You must meet the following constraints in order for your submission to be
 considered valid:
 
-#. The front-end must be a singule page app using React.
+#. The front-end must be a single page app using React.
 #. The data exchanged between front-end and back-end must be in JSON.
 #. There must be a plain-text instructions file that tells use how to build
    test, and run your submission.
