@@ -29,7 +29,6 @@ public class SimpleStarlightController {
 		return "checkout";
 	}
 	
-	@CrossOrigin(origins = "*")
 	@RequestMapping(value = "/editdistance", method = RequestMethod.POST)
 	@ResponseBody
 	public EditDistance getEditDistance(@RequestBody EditDistanceInput editDistanceInput) {
